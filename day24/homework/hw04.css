@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+.Header{
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+
+}
+.Goa{
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+}
+.Best{
+    color: blue;
+    text-align: center;
+    text-decoration: line-through;   
+}
+.Groap{
+    color: blue;
+    
+    text-align: center;
+    text-decoration: line-through;
+}
+.Big{
+    color: red;
+    text-align: right;
+    text-decoration:overline
+
+}
+.Footer{
+
+    color: red;
+    text-align: right;
+    text-decoration:overline ;
+}

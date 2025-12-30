@@ -1,0 +1,20 @@
+body{
+    color: aqua;
+}
+.Header{
+    text-align: left;
+    text-decoration: line-through;
+}
+.Goa{
+    text-align: left;
+    text-decoration: line-through;
+}
+.Best{
+    text-align: right;
+    text-decoration: overline;
+
+}
+.Footer{
+    text-align: right;
+    text-decoration: overline;
+}
