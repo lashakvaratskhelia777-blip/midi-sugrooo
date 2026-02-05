@@ -1,0 +1,38 @@
+#username{
+    color: blue;
+    background-color: black;
+}
+#lastname{
+    color: blue;
+    background-color: red;
+
+}
+#age{
+    color: red;
+    background-color: black;
+    
+}
+#email{
+    color: yellow;
+    background-color: antiquewhite;
+}
+#date{
+    color: green;
+    background-color: orange;
+}
+#favourate_color{
+    color: red;
+    
+}
+#passowrd{
+    color: magenta;
+    background-color: red;
+}
+#male{
+    color: blue;
+    background-color: grey;
+}
+#female{
+    color: blueviolet;
+    background-color: gold;
+}

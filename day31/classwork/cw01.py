@@ -1,0 +1,1 @@
+info = ("bacho", "Student", "GOA")
