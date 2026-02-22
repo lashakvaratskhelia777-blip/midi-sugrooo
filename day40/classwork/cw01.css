@@ -1,0 +1,7 @@
+body{
+    background-color: black;
+}
+.container{
+    background-image: url(kali-linux-dragon-logo.avif);
+    background-size: contain;
+}

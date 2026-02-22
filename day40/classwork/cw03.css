@@ -1,0 +1,16 @@
+
+.container{
+    color: white;
+
+}
+.box{
+    
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    transition: 10s,ease;
+}
+.box:hover{
+    transform: scale(2);
+    background-color: blue;
+}

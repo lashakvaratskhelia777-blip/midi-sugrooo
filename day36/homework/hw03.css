@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+  gap: 20px; /* დაშორება ელემენტებს შორის */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* შეცვლის თანმიმდევრობას */
+.first {
+  order: 2;
+}
+
+.second {
+  order: 1;
+}
