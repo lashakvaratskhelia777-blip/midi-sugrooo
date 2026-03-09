@@ -1,0 +1,29 @@
+body{
+    background:black;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
+
+.box{
+    width:400px;
+    height:30px;
+    border:2px solid white;
+    margin:auto;
+}
+
+.load{
+    height:100%;
+    width:0%;
+    background:white;
+    animation:loading 5s forwards;
+}
+
+@keyframes loading{
+    from{
+        width:0%;
+    }
+    to{
+        width:100%;
+    }
+}

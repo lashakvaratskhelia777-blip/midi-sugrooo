@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    height:100vh;
+    background:#2f3338;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ცენტრი */
+.loader{
+    position:relative;
+    width:100px;
+    height:100px;
+}
+
+/* კვადრატები */
+.box{
+    width:15px;
+    height:15px;
+    background:#8aa0ff;
+    position:absolute;
+}
+
+/* პირველი მოძრაობა */
+.box1{
+    animation:move1 2s linear infinite;
+}
+
+/* მეორე მოძრაობა */
+.box2{
+    animation:move2 2s linear infinite;
+}
+
+/* მარშრუტი */
+@keyframes move1{
+    0%   {top:0; left:0;}
+    25%  {top:0; left:80px;}
+    50%  {top:80px; left:80px;}
+    75%  {top:80px; left:0;}
+    100% {top:0; left:0;}
+}
+
+@keyframes move2{
+    0%   {top:80px; left:80px;}
+    25%  {top:80px; left:0;}
+    50%  {top:0; left:0;}
+    75%  {top:0; left:80px;}
+    100% {top:80px; left:80px;}
+}

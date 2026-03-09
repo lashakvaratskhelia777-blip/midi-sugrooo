@@ -1,0 +1,36 @@
+body{
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* დიდი ყუთი */
+.box{
+    width:200px;
+    height:400px;
+    background:white;
+    position:relative;
+    border-radius:10px;
+}
+
+/* ბურთი */
+.ball{
+    width:50px;
+    height:50px;
+    background:red;
+    border-radius:50%;
+    position:absolute;
+    left:75px;
+    top:0;
+
+    animation:drop 2s infinite;
+}
+
+/* ვარდნა და ამოსვლა */
+@keyframes drop{
+    0%{ top:0; }
+    50%{ top:330px; }
+    100%{ top:0; }
+}
