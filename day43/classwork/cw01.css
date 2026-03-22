@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:20px;
+    font-family:sans-serif;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr); /* 3x2 */
+    gap:10px;
+}
+
+.box{
+    height:150px;
+    background-color:lightblue;
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+}
+
+/* როცა ეკრანი პატარა გახდება */
+@media (max-width:700px){
+    .container{
+        grid-template-columns:repeat(2,1fr); /* 2x3 */
+    }
+}

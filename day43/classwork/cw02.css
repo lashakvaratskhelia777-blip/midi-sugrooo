@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+    background: #f6f6f6;
+    text-align: center;
+    margin: 0;
+}
+header p{
+    max-width: 500px;
+    margin: auto;
+    color: grey;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card{
+    background: white;
+    width: 230px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+}
+.supervisor{
+    border-top: 4px solid cyan;
+    margin-top: 40px;
+}
+.team{
+    border-top: 4px solid red;
+
+}
+.karma{
+    border-top: 4px solid orange;
+
+}
+.canculator{
+    border-top: 4px solid blue;
+    margin-top: 40px;
+}

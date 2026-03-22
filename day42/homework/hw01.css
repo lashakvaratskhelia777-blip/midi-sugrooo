@@ -1,0 +1,39 @@
+body{
+    background: #000;
+}
+.container{
+    
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin: auto;
+    margin-top: 200px;
+    animation:ganabivatiko 3s ease;
+    animation-iteration-count: infinite;
+    position: relative;  
+
+}
+
+@keyframes ganabivatiko{
+    0%{
+      left:0px;
+      top: 0px;
+    }
+    25%{
+        left: 25px;
+        top: 0px;
+        
+    }
+    50%{
+        top: 25px;
+        left: 25px;
+    }
+    75%{
+        top: 25px;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
