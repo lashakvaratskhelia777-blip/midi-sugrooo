@@ -1,0 +1,132 @@
+<!-- Classwork
+
+1) კომენტარებით ახსენით თითოეული სტრინგის მეთოდი და მოიყვანეთ თითოზე ორ-ორი მაგალითი
+.length
+.charAt(index)
+.at()
+.slice(startIndex,endIndex)
+.toUpperCase()
+.toLowerCase()
+.trim()
+.trimStart()
+.trimEnd()
+.repeat()
+.replace()
+.replaceAll()
+.split()
+ 
+2) კომენტარებით ახსენით რა განსხვავებაა .charAt() და .at()-ს შორის  -->
+
+<!-- // აბრუნებს სტრინგის სიგრძეს (რამდენი სიმბოლოა)
+let text = "hello";
+console.log(text.length); // 5
+
+let word = "JavaScript";
+console.log(word.length); // 10 -->
+<!-- // აბრუნებს სიმბოლოს ინდექსით (შეუძლია უარყოფითი ინდექსიც)
+let text = "hello";
+console.log(text.at(1)); // e
+
+let word = "world";
+console.log(word.at(-1)); // d (ბოლო ასო) -->
+<!-- // ჭრის სტრინგს start-დან end-მდე (end არ შედის)
+let text = "hello";
+console.log(text.slice(1, 4)); // ell
+
+let word = "JavaScript";
+console.log(word.slice(0, 4)); // Java -->
+
+<!-- // ყველა ასოს დიდ ასოდ აქცევს
+let text = "hello";
+console.log(text.toUpperCase()); // HELLO
+
+let word = "js";
+console.log(word.toUpperCase()); // JS -->
+
+<!-- // ყველა ასოს პატარა ასოდ აქცევს
+let text = "HELLO";
+console.log(text.toLowerCase()); // hello
+
+let word = "JS";
+console.log(word.toLowerCase()); // js -->
+
+<!-- // შლის ზედმეტ სიცარიელეებს (space) ორივე მხრიდან
+let text = "  hello  ";
+console.log(text.trim()); // "hello"
+
+let word = "  js ";
+console.log(word.trim()); // "js" -->
+
+<!-- // შლის space-ს დასაწყისიდან
+let text = "  hello";
+console.log(text.trimStart()); // "hello"
+
+let word =    js
+console.log(word.trimStart()); // js -->
+
+<!-- // შლის ზედმეტ სიცარიელეებს (space) ორივე მხრიდან
+let text =   hello  ";
+console.log(text.trim());  hello
+
+let word =  js
+console.log(word.trim())  js -->
+
+<!--  შლის space-ს დასაწყისიდან
+let text =   hello;
+console.log(text.trimStart());  hello
+
+let word =    js;
+console.log(word.trimStart()); // js -->
+
+
+<!--  იმეორებს სტრინგს რამდენჯერაც მიუთითებ
+let text = "hi ";
+console.log(text.repeat(3)); // hi hi hi 
+
+let word = "a";
+console.log(word.repeat(5)); // aaaaa -->
+
+<!-- // იმეორებს სტრინგს რამდენჯერაც მიუთითებ
+let text = "hi ";
+console.log(text.repeat(3)); // hi hi hi 
+
+let word = "a";
+console.log(word.repeat(5)); // aaaaa -->
+
+<!--  შლის space-ს ბოლოში
+let text = "hello  ";
+console.log(text.trimEnd()); // "hello"
+
+let word = "js   ";
+console.log(word.trimEnd()); // "js" -->
+
+<!--  იმეორებს სტრინგს რამდენჯერაც მიუთითებ
+let text = "hi ";
+console.log(text.repeat(3)); // hi hi hi 
+
+let word = "a";
+console.log(word.repeat(5)); // aaaaa -->
+
+<!--  ცვლის პირველ დამთხვევას
+let text = "hello world";
+console.log(text.replace("world", "js")); // hello js
+
+let word = "aaa";
+console.log(word.replace("a", "b")); // baa -->
+
+<!--  ყოფს სტრინგს მასივად
+let text = "a,b,c";
+console.log(text.split(",")); // ["a", "b", "c"]
+
+let word = "hello world";
+console.log(word.split(" ")); // ["hello", "world"] -->
+
+<!--  .charAt()
+ არ მუშაობს უარყოფით ინდექსზე
+let text = "hello";
+console.log(text.charAt(-1)); // "" (ცარიელი)
+
+.at()
+  მუშაობს უარყოფით ინდექსზე
+let text2 = "hello";
+console.log(text2.at(-1)); // o -->
